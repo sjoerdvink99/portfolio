@@ -1,8 +1,14 @@
 # Portfolio of Sjoerd Vink
 These are some of the projects Sjoerd has done.
 
-## Project 1
+## Freelance Projects
 Some text...
 
-## Project 2
+### Project 1
+Some text...
+
+## University Projects
+Some text...
+
+### Project 1
 Some text...
