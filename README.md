@@ -1,5 +1,5 @@
-# Web-development projects
-These are some of the web-development projects Sjoerd has done.
+# Portfolio of Sjoerd Vink
+These are some of the projects Sjoerd has done.
 
 ## Project 1
 Some text...
