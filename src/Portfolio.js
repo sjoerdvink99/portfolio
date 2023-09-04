@@ -100,6 +100,9 @@ export default function Portfolio() {
           <p className="text-slate-400 text-sm font-light">
             Utrecht University (2020 - 2023)
           </p>
+          <p className="text-sm font-light">
+            Exchange: University of Wisconsin-Madison (Fall 2022)
+          </p>
         </div>
         <div className="border p-5 rounded-sm shadow mb-4">
           <h3 className="font-semibold">BA Sports management</h3>
