@@ -1,0 +1,23 @@
+import React from "react";
+
+export default function Project({ title, date, link, skills, description }) {
+  return (
+    <div className="border p-5 rounded-sm shadow">
+      <h1 className="font-semibold">{title}</h1>
+      <p className="text-slate-400 text-sm font-light">{date}</p>
+      <div className="flex flex-wrap mt-2">
+        {skills.map((skill) => (
+          <p className="text-sm font-light py-1 px-2 bg-indigo-50 rounded-full m-1 text-indigo-700">
+            {skill}
+          </p>
+        ))}
+      </div>
+      <p className="my-2">{description}</p>
+      <a href={link} target="_blank" without rel="noreferrer">
+        <button className="text-xs px-5 py-1 rounded-sm bg-indigo-200">
+          Read more
+        </button>
+      </a>
+    </div>
+  );
+}
