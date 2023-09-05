@@ -12,7 +12,6 @@ export default function Portfolio() {
       <div className="">
         <h2 className="font-semibold mb-2">Projects</h2>
         <div className="border-b-2 border-indigo-500 mb-2"></div>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
           {projectInfo.map((project) => (
             <Project

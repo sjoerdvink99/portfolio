@@ -14,7 +14,7 @@ const skills = [
 export default function Profile() {
   return (
     <div className="flex-shrink-0 w-full md:w-1/4 md:mr-4">
-      <div className="basis-1/4 w-full flex-shrink-0 bg-slate-100	p-6 rounded shadow">
+      <div className="basis-1/4 w-full flex-shrink-0 bg-slate-100	p-6 rounded shadow sticky top-4">
         <img src={sjoerd} className="rounded-full h-36" alt="Sjoerd Vink" />
         <h1 className="font-semibold mt-3">Sjoerd Vink</h1>
         <p className="text-sm font-light">
