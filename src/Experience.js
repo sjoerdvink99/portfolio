@@ -3,8 +3,6 @@ import React from "react";
 export default function Experience() {
   return (
     <div className="mb-4">
-      <h2 className="font-semibold mb-2">Experience</h2>
-      <div className="border-b-2 border-indigo-500 mb-2"></div>
       <div className="border p-5 rounded-sm shadow mb-4">
         <h3 className="font-semibold">Software Engineer @ GraphPolaris</h3>
         <p className="text-slate-400 text-sm font-light">

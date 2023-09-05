@@ -3,8 +3,6 @@ import React from "react";
 export default function Education() {
   return (
     <div className="mb-4">
-      <h2 className="font-semibold mb-2">Education</h2>
-      <div className="border-b-2 border-indigo-500 mb-2"></div>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 sm:gap-0">
         <div className="border p-5 rounded-sm shadow">
           <h3 className="font-semibold">MSc Applied Data-Science</h3>
