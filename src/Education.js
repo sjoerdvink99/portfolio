@@ -9,7 +9,6 @@ export default function Education() {
           <p className="text-slate-400 text-sm font-light">
             Utrecht University (2023 - 2024)
           </p>
-          <p className="text-sm font-light">Starting in September</p>
         </div>
         <div className="border p-5 rounded-sm shadow">
           <h3 className="font-semibold">BSc Information Science</h3>

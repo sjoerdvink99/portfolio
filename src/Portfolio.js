@@ -12,7 +12,7 @@ export default function Portfolio() {
   return (
     <div className="flex-1 py-4 px-0 md:py-0 md:px-4">
       <div
-        className="space-y-2 mb-4 rounded-lg text-white text-center h-40 flex justify-center items-center"
+        className="space-y-2 mb-4 rounded-lg text-white text-center h-40 flex justify-center items-center p-4"
         style={{
           backgroundImage: `url(${banner})`,
           backgroundRepeat: "no-repeat",
