@@ -6,9 +6,11 @@ export default function Experience() {
       <div className="border p-5 rounded-sm mb-4">
         <div className="flex justify-between items-center">
           <h3 className="font-semibold">GraphPolaris</h3>
-          <p className="text-slate-400 text-sm font-light">Utrecht, NL</p>
+          <p className="text-slate-400 text-sm font-light hidden md:block">
+            Utrecht, NL
+          </p>
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col md:items-center md:flex-row justify-between">
           <p className="text-slate-400 text-sm font-medium">
             Software Engineer
           </p>
@@ -26,9 +28,11 @@ export default function Experience() {
       <div className="border p-5 rounded-sm mb-4">
         <div className="flex justify-between items-center">
           <h3 className="font-semibold">Utrecht University</h3>
-          <p className="text-slate-400 text-sm font-light">Utrecht, NL</p>
+          <p className="text-slate-400 text-sm font-light hidden md:block">
+            Utrecht, NL
+          </p>
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col md:items-center md:flex-row justify-between">
           <p className="text-slate-400 text-sm font-medium">
             Teaching Assistant
           </p>
@@ -43,9 +47,11 @@ export default function Experience() {
       <div className="border p-5 rounded-sm mb-4">
         <div className="flex justify-between items-center">
           <h3 className="font-semibold">Various Companies</h3>
-          <p className="text-slate-400 text-sm font-light">Utrecht, NL</p>
+          <p className="text-slate-400 text-sm font-light hidden md:block">
+            Utrecht, NL
+          </p>
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col md:items-center md:flex-row justify-between">
           <p className="text-slate-400 text-sm font-medium">
             Freelance Web Developer
           </p>
