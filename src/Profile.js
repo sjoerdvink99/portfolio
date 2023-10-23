@@ -6,9 +6,9 @@ import medium from "./assets/medium.svg";
 
 const skills = [
   "Data-Science",
-  "Machine-learning",
   "Cloud computing",
   "Web development",
+  "Product management",
 ];
 
 export default function Profile() {
@@ -20,7 +20,9 @@ export default function Profile() {
         <p className="text-sm font-light">
           Data Scientist | Master of Science in Applied Data Science
         </p>
-        <p className="text-slate-400 text-sm font-light">The Netherlands</p>
+        <p className="text-slate-400 text-sm font-light">
+          Utrecht, The Netherlands
+        </p>
 
         <div className="mt-3 flex">
           <a
@@ -48,16 +50,16 @@ export default function Profile() {
 
         <h1 className="font-semibold mt-3">About</h1>
         <p className="text-sm font-light">
-          Engineer with 2+ years of industry experience and a strong interest in
-          machine-learning, software development, and cloud computing. My true
-          passion lies in dynamic environments where I can harness the power of
-          science and engineering to drive innovation.
+          IT professional with 2+ years of industry experience and a strong
+          interest in product management, software development, and cloud
+          computing. My true passion lies in dynamic environments where I can
+          harness the power of science and engineering to drive innovation.
         </p>
 
-        <h1 className="font-semibold mt-3 w-">Skills</h1>
+        <h1 className="font-semibold mt-3">Skills</h1>
         <div className="w-full flex flex-wrap">
           {skills.map((skill) => (
-            <p className="text-sm font-light py-1 px-2 bg-indigo-50 rounded-full m-1 text-indigo-700">
+            <p className="text-sm font-light py-1 px-2 bg-blue-50 rounded-full m-1 text-blue-700">
               {skill}
             </p>
           ))}
