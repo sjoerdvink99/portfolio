@@ -1,6 +1,14 @@
 export const projectInfo = [
   {
-    name: "Thesis on Hierarchical Clustering for Large-Scale Geospatial Graphs",
+    name: "GraphPolaris: Visual analytics platform for graph data",
+    date: "Present",
+    link: "https://graphpolaris.com",
+    skills: ["Graphs", "Web development", "Typescript"],
+    description:
+      "Currently working on the future of graph analytics at GraphPolaris. Started out as a thesis intern, but sticked around to work as a software engineer. I do a bit of everything, both front-end and back-end.",
+  },
+  {
+    name: "Bachelor Thesis: Hierarchical clustering for large-scale geospatial graphs",
     date: "June 2023",
     link: "https://osf.io/hbpx8/",
     skills: ["Graphs", "Clustering", "Web development"],
@@ -8,31 +16,31 @@ export const projectInfo = [
       "Written my thesis in collaboration with GraphPolaris (final grade: 9.2/10). I investigated clustering methods for large-scale geospatial graphs to enhance readability.",
   },
   {
-    name: "Reinforcement learning project",
+    name: "Bachelor project: Reinforcement learning project",
     date: "December 2021",
     link: "https://github.com/sjoerdvink99/apml_reinforcement_learning/blob/main/Assignment_4_for_APML2022.pdf",
     skills: ["Python", "OpenAI", "Numpy"],
     description:
-      "Examined various reinforcement learning algorithms used for finding a particular goal in a maze environment. These algorithms make part of the temporal difference learning paradigm that involves an agent operating in an environment with state & rewards (inputs) and actions (outputs)",
+      "Explored diverse reinforcement learning algorithms designed to achieve specific goals within maze environments. These algorithms are integral to the temporal difference learning paradigm, in which an agent interacts with an environment through states and rewards as inputs and actions as outputs.",
   },
   {
-    name: "Airplane delay causes",
+    name: "Bachelor project: Airplane delay causes",
     date: "November 2021",
     link: "https://github.com/sjoerdvink99/airplane-delay-causes",
-    skills: ["Python", "Classification", "Clustering", "SK-Learn"],
+    skills: ["Python", "Classification", "Clustering", "SK-Learn", "Streamlit"],
     description:
-      "Built a dashboard which visualizes machine-learning results based on an airplane delay dataset.",
+      "Created a dashboard to visualize machine-learning results from an airplane delay dataset.",
   },
   {
-    name: "Topic modelling and clustering for online social-media data",
+    name: "Bachelor project: Topic modelling and clustering for online social-media data",
     date: "December 2021",
     link: "https://github.com/sjoerdvink99/apml_topic_mod_clus/blob/main/A3_paper.pdf",
     skills: ["Python", "Spacy", "SK-Learn"],
     description:
-      "Examined algorithms for topic modelling and clustering of text documents. The studied documents are tweets about the corona pandemic regarding testing. Latent dirichlet allocation is used to perform topic modelling.",
+      "Explored algorithms for text document topic modeling and clustering, specifically analyzing tweets related to the COVID-19 pandemic and testing, with the application of Latent Dirichlet Allocation for topic modeling.",
   },
   {
-    name: "Predictive process monitoring project",
+    name: "Bachelor project: Predictive process monitoring project",
     date: "November 2021",
     link: "https://github.com/sjoerdvink99/apml_pred_process_monitoring/blob/main/Assignment_2_for_APML2022.pdf",
     skills: ["Python", "SK-Learn"],
@@ -40,23 +48,23 @@ export const projectInfo = [
       "Examined different algorithms for predictive process monitoring (decision tree regression, kNN regression and random forest regression). The goal was to optimize process flows by predicting the remaining time someone has to stay in the hospital.",
   },
   {
-    name: "Outlier detection project",
+    name: "Bachelor project: Outlier detection",
     date: "October 2021",
     link: "https://github.com/sjoerdvink99/apml_anomaly_detection/blob/main/Report_Template_for_APML2022_UU.pdf",
     skills: ["Python", "Pandas", "SK-Learn"],
     description:
-      "Examined different anomaly detection algorithms which are used to classify outliers in the given data set. An attempt is made to improve the default parameter setting based on the F1-score.",
+      "Explored various anomaly detection algorithms for classifying outliers in the provided dataset and sought to enhance default parameter settings through F1-score optimization.",
   },
   {
-    name: "Mammographic data classification",
+    name: "Bachelor project: Mammographic data classification",
     date: "September 2021",
     link: "https://github.com/sjoerdvink99/data_analytics_mammographic/blob/main/PA1.ipynb",
     skills: ["Python", "Pandas", "SK-Learn"],
     description:
-      "Used feature engineering (truncated SVD and PCA) to determine which factors influence cancer severity the most.",
+      "Applied feature engineering techniques such as truncated SVD and PCA to identify the most significant factors impacting cancer severity.",
   },
   {
-    name: "Bank notes fraud detection",
+    name: "Bachelor project: Bank notes fraud detection",
     date: "September 2021",
     link: "https://github.com/sjoerdvink99/data_analytics_banknotes/blob/main/PA3.ipynb",
     skills: ["Python", "Pandas", "Plotly", "SK-Learn"],
@@ -64,19 +72,19 @@ export const projectInfo = [
       "Trained classification algorithms (KNN, Decision tree, SVM, Ensemble) to detect bank note forgery.",
   },
   {
-    name: "Shopping behavior analytics",
+    name: "Bachelor project: Shopping behavior analytics",
     date: "October 2021",
     link: "https://github.com/sjoerdvink99/data_analytics_shopping_behavior/blob/main/PA2.ipynb",
     skills: ["Python", "Pandas", "SK-Learn", "Evaluation"],
     description:
-      "Used different paradigms of clustering algorithms (KMeans, DBSCAN, Agglomerative clustering) to cluster online shopping data. Additionally, I did an extensive evaluation of the results using different metrics.",
+      "Used different paradigms of clustering algorithms (KMeans, DBSCAN, Agglomerative clustering) to cluster online shopping data.",
   },
   {
-    name: "Full text-based search engine",
+    name: "Bachelor project: Full text-based search engine",
     date: "June 2021",
     link: "https://github.com/sjoerdvink99/python-searchengine",
-    skills: ["Python", "Pandas", "SK-Learn"],
+    skills: ["Python", "Pandas", "SK-Learn", "Flask"],
     description:
-      "A Python search-engine without the use of external libraries to calculate cosinus similarities between queries and documents. The code is primarily written in Dutch, but can be used for other languages. The most important thing is that the documents that you want to search through are in a .txt file. Flask is used for the GUI.",
+      "A Python search-engine without the use of external libraries to calculate cosinus similarities between queries and documents.",
   },
 ];
