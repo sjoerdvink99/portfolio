@@ -8,6 +8,14 @@ export const projectInfo = [
       "Currently working on the future of graph analytics at GraphPolaris. Started out as a thesis intern, but sticked around to work as a software engineer. I do a bit of everything, both front-end and back-end.",
   },
   {
+    name: "Capita Selecta: Quantum Middleware Benchmarking",
+    date: "Fall 2023",
+    link: "https://github.com/EC-labs",
+    skills: ["Quantum", "Machine-Learning", "Covalent", "Python"],
+    description:
+      "Executed a benchmark analysis on quantum middleware for machine learning, emphasizing speed, CPU, and memory efficiency across multiple workflows.",
+  },
+  {
     name: "Bachelor Thesis: Hierarchical clustering for large-scale geospatial graphs",
     date: "June 2023",
     link: "https://osf.io/hbpx8/",

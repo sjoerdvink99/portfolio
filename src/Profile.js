@@ -30,21 +30,33 @@ export default function Profile() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={linkedin} className="mr-1" alt="linkedin profile" />
+            <img
+              src={linkedin}
+              className="mr-1 hover:-translate-y-1 transition-all duration-150 ease-in-out"
+              alt="linkedin profile"
+            />
           </a>
           <a
             href="https://sjoerdvink.medium.com/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={medium} className="mr-1" alt="medium" />
+            <img
+              src={medium}
+              className="mr-1 hover:-translate-y-1 transition-all duration-150 ease-in-out"
+              alt="medium"
+            />
           </a>
           <a
             href="mailto:sjoerdvink@icloud.com"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mail} alt="email" />
+            <img
+              src={mail}
+              className="hover:-translate-y-1 transition-all duration-150 ease-in-out"
+              alt="email"
+            />
           </a>
         </div>
 
