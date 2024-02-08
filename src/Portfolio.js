@@ -92,7 +92,7 @@ export default function Portfolio() {
             } `}
             onClick={() => setProjectsOpen(!projectsOpen)}
           >
-            <span className="font-semibold">Features Projects</span>
+            <span className="font-semibold">Featured Projects</span>
             <span>{projectsOpen ? "-" : "+"}</span>
           </div>
           {projectsOpen && (
