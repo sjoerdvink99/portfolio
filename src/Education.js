@@ -23,11 +23,13 @@ export default function Education() {
           </p>
         </div>
         <div className="border p-5 rounded-sm">
-          <h3 className="font-semibold">BA Sports management</h3>
+          <h3 className="font-semibold">BA Sports Studies</h3>
           <p className="text-slate-400 text-sm font-light">
             Windesheim University (2016 - 2020)
           </p>
-          <p className="text-sm font-light">Minor in Marketing Management</p>
+          <p className="text-sm font-light">
+            Minor in Digital Marketing Analytics
+          </p>
         </div>
       </div>
     </div>

@@ -5,6 +5,25 @@ export default function Experience() {
     <div className="mb-4">
       <div className="border p-5 rounded-sm mb-4">
         <div className="flex justify-between items-center">
+          <h3 className="font-semibold">Tufts University</h3>
+          <p className="text-slate-400 text-sm font-light hidden md:block">
+            Boston, MA (USA)
+          </p>
+        </div>
+        <div className="flex flex-col md:items-center md:flex-row justify-between">
+          <p className="text-slate-400 text-sm font-medium">
+            Visiting Research Scholar
+          </p>
+          <p className="text-slate-400 text-sm font-light">
+            April 2024 - July 2024
+          </p>
+        </div>
+        <p className="text-sm font-light">
+          Thesis on Automated Design of Network Visualizations.
+        </p>
+      </div>
+      <div className="border p-5 rounded-sm mb-4">
+        <div className="flex justify-between items-center">
           <h3 className="font-semibold">GraphPolaris</h3>
           <p className="text-slate-400 text-sm font-light hidden md:block">
             Utrecht, NL
@@ -19,10 +38,7 @@ export default function Experience() {
           </p>
         </div>
         <p className="text-sm font-light">
-          Building the future of graph analytics and visualisation with an
-          amazing team. My present focus mainly revolves around crafting a
-          geospatial graph visualization feature, aimed at unraveling intricate
-          geo-temporal relations.
+          Building the future of graph analytics and visualisation.
         </p>
       </div>
       <div className="border p-5 rounded-sm mb-4">
@@ -39,9 +55,9 @@ export default function Experience() {
           <p className="text-slate-400 text-sm font-light">Spring 2023</p>
         </div>
         <p className="text-sm font-light">
-          Assistant in the Web Technology course (INFOB2WT) under Dr. Sergey
-          Sosnovsky. Covering methods and techniques for both front-end and
-          back-end development of web-applications.
+          Assistant in the Web Technology course, covering methods and
+          techniques for both front-end and back-end development of
+          web-applications.
         </p>
       </div>
       <div className="border p-5 rounded-sm mb-4">
@@ -59,10 +75,7 @@ export default function Experience() {
         </div>
         <p className="text-sm font-light">
           Developed responsive and user-friendly websites tailored to the unique
-          needs of local businesses, leading to increased online traffic and
-          enhanced customer engagement. Provided consistent maintenance and
-          support services, guaranteeing optimal website performance and
-          seamless functionality over time.
+          needs of local businesses.
         </p>
       </div>
     </div>

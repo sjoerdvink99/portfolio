@@ -5,10 +5,10 @@ import mail from "./assets/mail.svg";
 import medium from "./assets/medium.svg";
 
 const skills = [
+  "Visual Analytics",
   "Data-Science",
-  "Cloud computing",
-  "Web development",
-  "Product management",
+  "Big Data",
+  "Information Visualization",
 ];
 
 export default function Profile() {
@@ -17,9 +17,7 @@ export default function Profile() {
       <div className="basis-1/4 w-full flex-shrink-0 bg-slate-100	p-6 rounded shadow sticky top-4">
         <img src={sjoerd} className="rounded-full h-36" alt="Sjoerd Vink" />
         <h1 className="font-semibold mt-3">Sjoerd Vink</h1>
-        <p className="text-sm font-light">
-          Data Scientist | Master of Science in Applied Data Science
-        </p>
+        <p className="text-sm font-light">Research Engineer at GraphPolaris</p>
         <p className="text-slate-400 text-sm font-light">
           Utrecht, The Netherlands
         </p>
@@ -68,7 +66,7 @@ export default function Profile() {
           harness the power of science and engineering to drive innovation.
         </p>
 
-        <h1 className="font-semibold mt-3">Skills</h1>
+        <h1 className="font-semibold mt-3">Research Focus</h1>
         <div className="w-full flex flex-wrap">
           {skills.map((skill) => (
             <p className="text-sm font-light py-1 px-2 bg-blue-50 rounded-full m-1 text-blue-700">

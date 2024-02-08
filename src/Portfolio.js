@@ -4,8 +4,10 @@ import { projectInfo } from "./projectInfo";
 import Education from "./Education";
 import Experience from "./Experience";
 import banner from "./assets/banner.jpg";
+import Awards from "./Awards";
 
 export default function Portfolio() {
+  const [awardsOpen, setAwardsOpen] = React.useState(false);
   const [educationOpen, setEducationOpen] = React.useState(false);
   const [experienceOpen, setExperienceOpen] = React.useState(false);
 
@@ -21,10 +23,26 @@ export default function Portfolio() {
         }}
       >
         <h1 className="text-2xl font-bold">
-          Turning data into information, and information into insight
+          Turning Data Into Information, and Information Into Insight
         </h1>
       </div>
-      <div className="space-y-2 mb-4">
+      <div className="space-y-2 mb-2">
+        <div className="border rounded-lg">
+          <div
+            className="flex justify-between p-4 cursor-pointer"
+            onClick={() => setAwardsOpen(!awardsOpen)}
+          >
+            <span className="font-semibold">Awards</span>
+            <span>{awardsOpen ? "-" : "+"}</span>
+          </div>
+          {awardsOpen && (
+            <div className="p-4">
+              <Awards />
+            </div>
+          )}
+        </div>
+      </div>
+      <div className="space-y-2 mb-2">
         <div className="border rounded-lg">
           <div
             className="flex justify-between p-4 cursor-pointer"
@@ -40,7 +58,7 @@ export default function Portfolio() {
           )}
         </div>
       </div>
-      <div className="space-y-2 mb-4">
+      <div className="space-y-2 mb-2">
         <div className="border rounded-lg">
           <div
             className="flex justify-between p-4 cursor-pointer"
@@ -56,11 +74,8 @@ export default function Portfolio() {
           )}
         </div>
       </div>
-      {/* <Education /> */}
-      {/* <Experience /> */}
       <div className="border rounded-lg p-4">
         <h2 className="font-semibold mb-2">Projects</h2>
-        {/* <div className="border-b-2 border-indigo-500 mb-2"></div> */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
           {projectInfo.map((project) => (
             <Project
