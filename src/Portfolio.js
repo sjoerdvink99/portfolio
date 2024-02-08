@@ -30,10 +30,12 @@ export default function Portfolio() {
       <div className="space-y-2 mb-2">
         <div className="border rounded-lg">
           <div
-            className="flex justify-between p-4 cursor-pointer"
+            className={`flex justify-between p-4 cursor-pointer ${
+              !awardsOpen && "hover:bg-slate-100 transition-colors ease-in-out"
+            }`}
             onClick={() => setAwardsOpen(!awardsOpen)}
           >
-            <span className="font-semibold">Awards</span>
+            <span className="font-semibold">Leadership & Awards</span>
             <span>{awardsOpen ? "-" : "+"}</span>
           </div>
           {awardsOpen && (
@@ -46,7 +48,10 @@ export default function Portfolio() {
       <div className="space-y-2 mb-2">
         <div className="border rounded-lg">
           <div
-            className="flex justify-between p-4 cursor-pointer"
+            className={`flex justify-between p-4 cursor-pointer ${
+              !educationOpen &&
+              "hover:bg-slate-100 transition-colors ease-in-out"
+            }`}
             onClick={() => setEducationOpen(!educationOpen)}
           >
             <span className="font-semibold">Education</span>
@@ -62,7 +67,10 @@ export default function Portfolio() {
       <div className="space-y-2 mb-2">
         <div className="border rounded-lg">
           <div
-            className="flex justify-between p-4 cursor-pointer"
+            className={`flex justify-between p-4 cursor-pointer ${
+              !experienceOpen &&
+              "hover:bg-slate-100 transition-colors ease-in-out"
+            }`}
             onClick={() => setExperienceOpen(!experienceOpen)}
           >
             <span className="font-semibold">Experience</span>
@@ -78,10 +86,13 @@ export default function Portfolio() {
       <div className="space-y-2 mb-2">
         <div className="border rounded-lg">
           <div
-            className="flex justify-between p-4 cursor-pointer"
+            className={`flex justify-between p-4 cursor-pointer ${
+              !projectsOpen &&
+              "hover:bg-slate-100 transition-colors ease-in-out"
+            } `}
             onClick={() => setProjectsOpen(!projectsOpen)}
           >
-            <span className="font-semibold">Experience</span>
+            <span className="font-semibold">Features Projects</span>
             <span>{projectsOpen ? "-" : "+"}</span>
           </div>
           {projectsOpen && (

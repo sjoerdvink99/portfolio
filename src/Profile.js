@@ -18,7 +18,12 @@ export default function Profile() {
       <div className="basis-1/4 w-full flex-shrink-0 bg-slate-100	p-6 rounded shadow sticky top-4">
         <img src={sjoerd} className="rounded-full h-36" alt="Sjoerd Vink" />
         <h1 className="font-semibold mt-3">Sjoerd Vink</h1>
-        <p className="text-sm font-light">Research Engineer at GraphPolaris</p>
+        <p className="text-sm font-light">
+          Research Engineer at{" "}
+          <a href="https://graphpolaris.com/" target="_blank" rel="noreferrer">
+            GraphPolaris
+          </a>
+        </p>
         <p className="text-slate-400 text-sm font-light">
           Utrecht, The Netherlands
         </p>

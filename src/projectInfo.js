@@ -64,30 +64,6 @@ export const projectInfo = [
       "Explored various anomaly detection algorithms for classifying outliers in the provided dataset and sought to enhance default parameter settings through F1-score optimization.",
   },
   {
-    name: "Mammographic Data Classification",
-    date: "September 2021",
-    link: "https://github.com/sjoerdvink99/data_analytics_mammographic/blob/main/PA1.ipynb",
-    skills: ["Python", "Pandas", "SK-Learn"],
-    description:
-      "Applied feature engineering techniques such as truncated SVD and PCA to identify the most significant factors impacting cancer severity.",
-  },
-  {
-    name: "Bank Notes Fraud Detection",
-    date: "September 2021",
-    link: "https://github.com/sjoerdvink99/data_analytics_banknotes/blob/main/PA3.ipynb",
-    skills: ["Python", "Pandas", "Plotly", "SK-Learn"],
-    description:
-      "Trained classification algorithms (KNN, Decision tree, SVM, Ensemble) to detect bank note forgery.",
-  },
-  {
-    name: "Shopping Behavior Analytics",
-    date: "October 2021",
-    link: "https://github.com/sjoerdvink99/data_analytics_shopping_behavior/blob/main/PA2.ipynb",
-    skills: ["Python", "Pandas", "SK-Learn", "Evaluation"],
-    description:
-      "Used different paradigms of clustering algorithms (KMeans, DBSCAN, Agglomerative clustering) to cluster online shopping data.",
-  },
-  {
     name: "Full Text-Based Search Engine",
     date: "June 2021",
     link: "https://github.com/sjoerdvink99/python-searchengine",
