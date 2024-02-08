@@ -4,6 +4,7 @@ import linkedin from "./assets/linkedin.svg";
 import mail from "./assets/mail.svg";
 import medium from "./assets/medium.svg";
 import github from "./assets/github.svg";
+import resume from "./assets/Resume.pdf";
 
 const skills = [
   "Visual Analytics",
@@ -82,6 +83,14 @@ export default function Profile() {
           dynamic environments where I can harness the power of science and
           engineering to drive innovation.
         </p>
+        <a
+          href={resume}
+          target="_blank"
+          rel="noreferrer"
+          className="text-xs px-5 py-1 rounded-sm bg-blue-200 mt-3"
+        >
+          Resume
+        </a>
 
         <h1 className="font-semibold mt-3">Research Focus</h1>
         <div className="w-full flex flex-wrap">
