@@ -21,7 +21,7 @@ export const projectInfo = [
     link: "https://osf.io/hbpx8/",
     skills: ["Graphs", "Clustering", "Web development"],
     description:
-      "Written my bachelor thesis in collaboration with GraphPolaris (final grade: 9.2/10). I investigated clustering methods for large-scale geospatial graphs to enhance readability.",
+      "Wrote my bachelor thesis in collaboration with GraphPolaris (final grade: 9.2/10). I investigated clustering methods for large-scale geospatial graphs to enhance readability.",
   },
   {
     name: "Reinforcement Learning Project",
@@ -53,7 +53,7 @@ export const projectInfo = [
     link: "https://github.com/sjoerdvink99/apml_pred_process_monitoring/blob/main/Assignment_2_for_APML2022.pdf",
     skills: ["Python", "SK-Learn"],
     description:
-      "Examined different algorithms for predictive process monitoring (decision tree regression, kNN regression and random forest regression). The goal was to optimize process flows by predicting the remaining time someone has to stay in the hospital.",
+      "Examined different algorithms for predictive process monitoring (decision tree regression, kNN regression and random forest regression). The goal was to optimize process flows by predicting hospitalization time.",
   },
   {
     name: "Outlier Detection",
@@ -93,6 +93,6 @@ export const projectInfo = [
     link: "https://github.com/sjoerdvink99/python-searchengine",
     skills: ["Python", "Pandas", "SK-Learn", "Flask"],
     description:
-      "A Python search-engine without the use of external libraries to calculate cosinus similarities between queries and documents.",
+      "Built a Python search-engine without the use of external libraries to calculate cosinus similarities between queries and documents.",
   },
 ];

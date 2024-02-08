@@ -3,6 +3,7 @@ import sjoerd from "./assets/sjoerd.jpg";
 import linkedin from "./assets/linkedin.svg";
 import mail from "./assets/mail.svg";
 import medium from "./assets/medium.svg";
+import github from "./assets/github.svg";
 
 const skills = [
   "Visual Analytics",
@@ -23,6 +24,17 @@ export default function Profile() {
         </p>
 
         <div className="mt-3 flex">
+          <a
+            href="https://github.com/sjoerdvink99"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={github}
+              className="mr-1 hover:-translate-y-1 transition-all duration-150 ease-in-out"
+              alt="linkedin profile"
+            />
+          </a>
           <a
             href="https://www.linkedin.com/in/sjoerdvink/"
             target="_blank"
@@ -60,10 +72,10 @@ export default function Profile() {
 
         <h1 className="font-semibold mt-3">About</h1>
         <p className="text-sm font-light">
-          IT professional with 2+ years of industry experience and a strong
-          interest in product management, software development, and cloud
-          computing. My true passion lies in dynamic environments where I can
-          harness the power of science and engineering to drive innovation.
+          Researcher with 2+ years of industry experience and a strong interest
+          in building usable products that scale. My true passion lies in
+          dynamic environments where I can harness the power of science and
+          engineering to drive innovation.
         </p>
 
         <h1 className="font-semibold mt-3">Research Focus</h1>
