@@ -10,6 +10,7 @@ export default function Portfolio() {
   const [awardsOpen, setAwardsOpen] = React.useState(false);
   const [educationOpen, setEducationOpen] = React.useState(false);
   const [experienceOpen, setExperienceOpen] = React.useState(false);
+  const [projectsOpen, setProjectsOpen] = React.useState(true);
 
   return (
     <div className="flex-1 py-4 px-0 md:py-0 md:px-4">
@@ -74,19 +75,29 @@ export default function Portfolio() {
           )}
         </div>
       </div>
-      <div className="border rounded-lg p-4">
-        <h2 className="font-semibold mb-2">Projects</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-          {projectInfo.map((project) => (
-            <Project
-              key={project.name}
-              title={project.name}
-              date={project.date}
-              link={project.link}
-              skills={project.skills}
-              description={project.description}
-            />
-          ))}
+      <div className="space-y-2 mb-2">
+        <div className="border rounded-lg">
+          <div
+            className="flex justify-between p-4 cursor-pointer"
+            onClick={() => setProjectsOpen(!projectsOpen)}
+          >
+            <span className="font-semibold">Experience</span>
+            <span>{projectsOpen ? "-" : "+"}</span>
+          </div>
+          {projectsOpen && (
+            <div className="grid grid-cols-1 p-4 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+              {projectInfo.map((project) => (
+                <Project
+                  key={project.name}
+                  title={project.name}
+                  date={project.date}
+                  link={project.link}
+                  skills={project.skills}
+                  description={project.description}
+                />
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>
