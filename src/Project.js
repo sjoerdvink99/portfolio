@@ -1,13 +1,6 @@
 import React from "react";
 
-export default function Project({
-  title,
-  date,
-  link,
-  skills,
-  description,
-  imagePath,
-}) {
+export default function Project({ title, date, link, skills, description }) {
   return (
     <div className="border p-5 rounded-sm">
       <h1 className="font-semibold">{title}</h1>
