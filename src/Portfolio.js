@@ -38,11 +38,13 @@ export default function Portfolio() {
             <span className="font-semibold">Leadership & Awards</span>
             <span>{awardsOpen ? "-" : "+"}</span>
           </div>
-          {awardsOpen && (
-            <div className="p-4">
-              <Awards />
-            </div>
-          )}
+          <div
+            className={`p-4 transition-[height] duration-300 ease-in ${
+              !awardsOpen && "hidden"
+            }`}
+          >
+            <Awards />
+          </div>
         </div>
       </div>
       <div className="space-y-2 mb-2">
@@ -105,6 +107,7 @@ export default function Portfolio() {
                   link={project.link}
                   skills={project.skills}
                   description={project.description}
+                  imagePath={project.imagePath}
                 />
               ))}
             </div>

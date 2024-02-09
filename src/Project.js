@@ -1,9 +1,17 @@
 import React from "react";
 
-export default function Project({ title, date, link, skills, description }) {
+export default function Project({
+  title,
+  date,
+  link,
+  skills,
+  description,
+  imagePath,
+}) {
   return (
     <div className="border p-5 rounded-sm">
       <h1 className="font-semibold">{title}</h1>
+      {/* <img src={imagePath} /> */}
       <p className="text-slate-400 text-sm font-light">{date}</p>
       <div className="flex flex-wrap mt-2">
         {skills.map((skill) => (

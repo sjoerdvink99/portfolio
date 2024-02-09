@@ -18,6 +18,15 @@ export default function Experience() {
             April 2024 - July 2024
           </p>
         </div>
+        <div className="flex flex-wrap mt-2">
+          {["Visual Analytics", "Recommender Systems", "Knowledge Graphs"].map(
+            (skill) => (
+              <p className="text-xs font-light py-1 px-2 bg-blue-50 rounded-full m-1 text-blue-700">
+                {skill}
+              </p>
+            )
+          )}
+        </div>
         <p className="text-sm font-light">
           At Tufts University's Visual Analytics Lab, I will research automated
           design for network visualizations, aiming to improve data
@@ -40,6 +49,15 @@ export default function Experience() {
             April 2023 - Present
           </p>
         </div>
+        <div className="flex flex-wrap mt-2">
+          {["Knowledge Graphs", "Data Visualization", "Typescript", "Go"].map(
+            (skill) => (
+              <p className="text-xs font-light py-1 px-2 bg-blue-50 rounded-full m-1 text-blue-700">
+                {skill}
+              </p>
+            )
+          )}
+        </div>
         <p className="text-sm font-light">
           In my software engineering role at GraphPolaris, I contribute to
           enabling the valorization of knowledge stored in graph databases. By
@@ -61,6 +79,15 @@ export default function Experience() {
           </p>
           <p className="text-slate-400 text-sm font-light">Spring 2023</p>
         </div>
+        <div className="flex flex-wrap mt-2">
+          {["Web Development", "Front-end", "Back-end", "Javascript"].map(
+            (skill) => (
+              <p className="text-xs font-light py-1 px-2 bg-blue-50 rounded-full m-1 text-blue-700">
+                {skill}
+              </p>
+            )
+          )}
+        </div>
         <p className="text-sm font-light">
           Assistant in the Web Technology course during my bachelor. It covered
           methods and techniques for both front-end and back-end development of
@@ -79,6 +106,13 @@ export default function Experience() {
             Freelance Web Developer
           </p>
           <p className="text-slate-400 text-sm font-light">2020 - 2023</p>
+        </div>
+        <div className="flex flex-wrap mt-2">
+          {["Javascript", "HTML", "CSS"].map((skill) => (
+            <p className="text-xs font-light py-1 px-2 bg-blue-50 rounded-full m-1 text-blue-700">
+              {skill}
+            </p>
+          ))}
         </div>
         <p className="text-sm font-light">
           Developed responsive and user-friendly websites tailored to the unique
