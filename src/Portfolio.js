@@ -107,6 +107,7 @@ export default function Portfolio() {
                   link={project.link}
                   skills={project.skills}
                   description={project.description}
+                  image={project.imagePath}
                 />
               ))}
             </div>
