@@ -1,20 +1,29 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0487945b.css",
-    "main.js": "/portfolio/static/js/main.43e93db1.js",
+    "main.js": "/portfolio/static/js/main.a04a4e41.js",
+    "static/media/quantum.jpeg": "/portfolio/static/media/quantum.939b654dbdbba25eb429.jpeg",
+    "static/media/airplane_delay.jpeg": "/portfolio/static/media/airplane_delay.ee35f9fe455714b635af.jpeg",
+    "static/media/bsc_thesis.jpeg": "/portfolio/static/media/bsc_thesis.933ab7b700f2d24c8243.jpeg",
     "static/media/banner.jpg": "/portfolio/static/media/banner.354bb312fbb436a82137.jpg",
+    "static/media/graphpolaris.jpeg": "/portfolio/static/media/graphpolaris.41d3e26081855e5a7717.jpeg",
     "static/media/sjoerd.jpg": "/portfolio/static/media/sjoerd.c8ddb0756dc1b9b659a7.jpg",
+    "static/media/topic_modelling.jpeg": "/portfolio/static/media/topic_modelling.ce7076f9677a4eb9d033.jpeg",
+    "static/media/rl_project.jpeg": "/portfolio/static/media/rl_project.e546dacc9e0ad4ccdba8.jpeg",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.7381f6c94867acd5675c.pdf",
+    "static/media/outlier_detection.jpeg": "/portfolio/static/media/outlier_detection.9639f096ca4f4d9a5e2a.jpeg",
+    "static/media/pp_monitoring.jpeg": "/portfolio/static/media/pp_monitoring.6c6c3e3fc19b4c3538f1.jpeg",
+    "static/media/search_engine.jpeg": "/portfolio/static/media/search_engine.40d8c07e132d49c14ce5.jpeg",
     "static/media/github.svg": "/portfolio/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
     "index.html": "/portfolio/index.html",
     "static/media/medium.svg": "/portfolio/static/media/medium.97249c33c30bd77bfbd507965157bce8.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.033b1683dcd2583d7ff2c6ce56160dac.svg",
     "static/media/mail.svg": "/portfolio/static/media/mail.6ac62bfa03e2a985535678e82ffed575.svg",
     "main.0487945b.css.map": "/portfolio/static/css/main.0487945b.css.map",
-    "main.43e93db1.js.map": "/portfolio/static/js/main.43e93db1.js.map"
+    "main.a04a4e41.js.map": "/portfolio/static/js/main.a04a4e41.js.map"
   },
   "entrypoints": [
     "static/css/main.0487945b.css",
-    "static/js/main.43e93db1.js"
+    "static/js/main.a04a4e41.js"
   ]
 }
