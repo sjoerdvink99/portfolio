@@ -25,7 +25,7 @@ export const projectInfo = [
     skills: ["Quantum", "Machine-Learning", "Covalent", "Python"],
     description:
       "Executed a benchmark analysis on quantum middleware for machine learning, emphasizing speed, CPU, and memory efficiency across multiple workflows.",
-    imagePath: bsc_thesis,
+    imagePath: quantum,
   },
   {
     name: "Hierarchical Clustering for Large-Scale Geospatial Graphs",
@@ -34,7 +34,7 @@ export const projectInfo = [
     skills: ["Graphs", "Clustering", "Web development"],
     description:
       "Wrote my bachelor thesis in collaboration with GraphPolaris (final grade: 9.2/10). I investigated clustering methods for large-scale geospatial graphs to enhance readability.",
-    imagePath: quantum,
+    imagePath: bsc_thesis,
   },
   {
     name: "Reinforcement Learning Project",
