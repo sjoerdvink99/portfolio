@@ -12,7 +12,9 @@ export default function Project({
     <div className="border p-5 rounded-sm">
       <h1 className="font-semibold">{title}</h1>
       <p className="text-slate-400 text-sm font-light">{date}</p>
-      <img src={image} alt={title} />
+      <a href={link} target="_blank" without rel="noreferrer">
+        <img src={image} alt={title} />
+      </a>
       <div className="flex flex-wrap mt-2">
         {skills.map((skill) => (
           <p className="text-xs font-light py-1 px-2 bg-blue-50 rounded-full m-1 text-blue-700">
