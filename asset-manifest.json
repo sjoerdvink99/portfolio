@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0487945b.css",
-    "main.js": "/portfolio/static/js/main.9cf9e313.js",
+    "main.css": "/portfolio/static/css/main.899f82c4.css",
+    "main.js": "/portfolio/static/js/main.79fabf90.js",
     "static/media/quantum.jpeg": "/portfolio/static/media/quantum.939b654dbdbba25eb429.jpeg",
     "static/media/airplane_delay.jpeg": "/portfolio/static/media/airplane_delay.ee35f9fe455714b635af.jpeg",
     "static/media/bsc_thesis.jpeg": "/portfolio/static/media/bsc_thesis.933ab7b700f2d24c8243.jpeg",
@@ -19,11 +19,11 @@
     "static/media/medium.svg": "/portfolio/static/media/medium.97249c33c30bd77bfbd507965157bce8.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.033b1683dcd2583d7ff2c6ce56160dac.svg",
     "static/media/mail.svg": "/portfolio/static/media/mail.6ac62bfa03e2a985535678e82ffed575.svg",
-    "main.0487945b.css.map": "/portfolio/static/css/main.0487945b.css.map",
-    "main.9cf9e313.js.map": "/portfolio/static/js/main.9cf9e313.js.map"
+    "main.899f82c4.css.map": "/portfolio/static/css/main.899f82c4.css.map",
+    "main.79fabf90.js.map": "/portfolio/static/js/main.79fabf90.js.map"
   },
   "entrypoints": [
-    "static/css/main.0487945b.css",
-    "static/js/main.9cf9e313.js"
+    "static/css/main.899f82c4.css",
+    "static/js/main.79fabf90.js"
   ]
 }
