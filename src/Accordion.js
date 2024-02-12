@@ -40,7 +40,7 @@ export function AccordionItem({ children, value, trigger, ...props }) {
       </header>
       <div
         className="overflow-y-hidden transition-all"
-        style={{ height: open ? ref.current?.offsetHeight || 0 : 0 }}
+        style={{ height: open ? ref.current?.offsetHeight : 0 }}
       >
         <div className="pt-2 p-4" ref={ref}>
           {children}

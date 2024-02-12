@@ -24,7 +24,7 @@ export default function Portfolio() {
         </h1>
       </div>
       <div className="space-y-2 mb-2">
-        <Accordion>
+        <Accordion value="3">
           <AccordionItem value="0" trigger="Leadership & Awards">
             <Awards />
           </AccordionItem>
