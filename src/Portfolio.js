@@ -6,6 +6,7 @@ import Experience from "./Experience";
 import banner from "./assets/banner.jpg";
 import Awards from "./Awards";
 import Accordion, { AccordionItem } from "./Accordion";
+import Personal from "./Personal";
 
 export default function Portfolio() {
   return (
@@ -24,17 +25,20 @@ export default function Portfolio() {
         </h1>
       </div>
       <div className="space-y-2 mb-2">
-        <Accordion value="3">
-          <AccordionItem value="0" trigger="Leadership & Awards">
+        <Accordion value="0">
+          <AccordionItem value="0" trigger="Hi, I'm Sjoerd Vink">
+            <Personal />
+          </AccordionItem>
+          <AccordionItem value="1" trigger="Leadership & Awards">
             <Awards />
           </AccordionItem>
-          <AccordionItem value="1" trigger="Education">
+          <AccordionItem value="2" trigger="Education">
             <Education />
           </AccordionItem>
-          <AccordionItem value="2" trigger="Experience">
+          <AccordionItem value="3" trigger="Experience">
             <Experience />
           </AccordionItem>
-          <AccordionItem value="3" trigger="Featured Projects">
+          <AccordionItem value="4" trigger="Featured Projects">
             <div className="grid grid-cols-1 p-4 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
               {projectInfo.map((project) => (
                 <Project
