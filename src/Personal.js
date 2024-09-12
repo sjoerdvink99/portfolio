@@ -4,17 +4,34 @@ export default function Personal() {
   return (
     <div className="mb-4">
       <p>
-        I'm pursuing a Master's degree in Data Science at{" "}
+        I'm a PhD candidate in Computer Science working with{" "}
         <a
           className="underline"
-          href="https://www.uu.nl/en/masters/applied-data-science"
+          href="https://michael.behrisch.info/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Michael Behrisch
+        </a>{" "}
+        in the{" "}
+        <a
+          className="underline"
+          href="https://vig.science.uu.nl/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Visualization and Graphics Group
+        </a>{" "}
+        at{" "}
+        <a
+          href="https://www.uu.nl/en/"
+          className="underline"
           target="_blank"
           rel="noreferrer"
         >
           Utrecht University
         </a>
-        , building upon my Bachelor's in Information Science. Currently, I work
-        as a research engineer at{" "}
+        , a research engineer at{" "}
         <a
           className="underline"
           href="https://graphpolaris.com/"
@@ -23,20 +40,59 @@ export default function Personal() {
         >
           GraphPolaris
         </a>
-        , where I focus on unlocking the potential of graph databases to drive
-        knowledge valorization. My primary research interest lies in visual
-        analytics, and I am largely motivated by downstream applications in
-        decision support systems for various fields. If you're interested in
-        discussing research and data-science, feel free to reach out to me at{" "}
+        , and a visiting researcher in the{" "}
         <a
+          href="https://valt.cs.tufts.edu/"
           className="underline"
-          href="mailto:sjoerdvink@icloud.com"
           target="_blank"
           rel="noreferrer"
         >
-          sjoerdvink@icloud.com
+          Visual Analytics Lab
+        </a>{" "}
+        at{" "}
+        <a
+          href="https://www.tufts.edu/"
+          className="underline"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Tufts University
+        </a>{" "}
+        under{" "}
+        <a
+          href="https://www.cs.tufts.edu/~remco/"
+          className="underline"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Remco Chang
         </a>
         .
+        <div className="mt-2">
+          <p>
+            My research focuses on developing computational techniques and
+            interfaces that enable professionals to explore multivariate
+            networks and identify valuable insights. By creating systems that
+            facilitate dynamic exploration and interaction with these networks,
+            my work aims to support users in uncovering hidden patterns,
+            relationships, and trends that might otherwise remain obscured.
+          </p>
+        </div>
+        <div className="mt-2">
+          <p>
+            If you're interested in discussing research and data-science, feel
+            free to reach out to me at{" "}
+            <a
+              className="underline"
+              href="mailto:sjoerdvink@icloud.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              sjoerdvink@icloud.com
+            </a>
+            .
+          </p>
+        </div>
       </p>
     </div>
   );

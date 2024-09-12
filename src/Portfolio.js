@@ -1,12 +1,8 @@
 import React from "react";
-import Project from "./Project";
-import { projectInfo } from "./projectInfo";
-import Education from "./Education";
-import Experience from "./Experience";
 import banner from "./assets/banner.jpg";
-import Awards from "./Awards";
 import Accordion, { AccordionItem } from "./Accordion";
 import Personal from "./Personal";
+import News from "./News";
 
 export default function Portfolio() {
   return (
@@ -29,29 +25,11 @@ export default function Portfolio() {
           <AccordionItem value="0" trigger="Hi, I'm Sjoerd Vink">
             <Personal />
           </AccordionItem>
-          <AccordionItem value="1" trigger="Leadership & Awards">
-            <Awards />
+          <AccordionItem value="1" trigger="Publications">
+            <div></div>
           </AccordionItem>
-          <AccordionItem value="2" trigger="Education">
-            <Education />
-          </AccordionItem>
-          <AccordionItem value="3" trigger="Experience">
-            <Experience />
-          </AccordionItem>
-          <AccordionItem value="4" trigger="Featured Projects">
-            <div className="grid grid-cols-1 p-4 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-              {projectInfo.map((project) => (
-                <Project
-                  key={project.name}
-                  title={project.name}
-                  date={project.date}
-                  link={project.link}
-                  skills={project.skills}
-                  description={project.description}
-                  image={project.imagePath}
-                />
-              ))}
-            </div>
+          <AccordionItem value="2" trigger="News">
+            <News />
           </AccordionItem>
         </Accordion>
       </div>

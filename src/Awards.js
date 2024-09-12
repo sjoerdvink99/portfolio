@@ -17,13 +17,6 @@ export default function Awards() {
           sustainable energy park.
         </p>
       </div>
-      <div>
-        <p>
-          <span className="font-bold">CodeX publication (2022):</span> Published
-          2 times in the tech-oriented Medium blog with over 900k monthly
-          readers.
-        </p>
-      </div>
     </div>
   );
 }

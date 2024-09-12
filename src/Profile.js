@@ -21,8 +21,22 @@ export default function Profile() {
         <h1 className="font-semibold mt-3">Sjoerd Vink</h1>
         <p className="text-sm font-light">
           Research Engineer at{" "}
-          <a href="https://graphpolaris.com/" target="_blank" rel="noreferrer">
+          <a
+            className="underline"
+            href="https://graphpolaris.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             GraphPolaris
+          </a>{" "}
+          | PhD Candidate in CS at{" "}
+          <a
+            href="https://www.uu.nl/en/"
+            className="underline"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Utrecht University
           </a>
         </p>
         <p className="text-slate-400 text-sm font-light">
@@ -78,9 +92,8 @@ export default function Profile() {
 
         <h1 className="font-semibold mt-3">About</h1>
         <p className="text-sm font-light">
-          Researcher with 2+ years of industry experience and a strong interest
-          in building usable products that scale. My true passion lies in
-          dynamic environments where I can harness the power of science and
+          Researcher with 2+ years of industry experience. My true passion lies
+          in dynamic environments where I can harness the power of science and
           engineering to drive innovation.
         </p>
         <a
