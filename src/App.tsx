@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import sjoerd from "./assets/sjoerd.jpg";
 import linkedin from "./assets/linkedin.svg";
 import mail from "./assets/mail.svg";
@@ -10,6 +10,17 @@ import type { Publication } from "./types";
 
 function App() {
   const [activeTab, setActiveTab] = useState<"selected" | "all">("selected");
+  const [isSticky, setIsSticky] = useState(false);
+  const sentinelRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsSticky(!entry.isIntersecting),
+      { threshold: 1 }
+    );
+    if (sentinelRef.current) observer.observe(sentinelRef.current);
+    return () => observer.disconnect();
+  }, []);
 
   const handleSmoothScroll = (
     e: React.MouseEvent<HTMLAnchorElement>,
@@ -93,7 +104,8 @@ function App() {
           </div>
         </div>
       </section>
-      <nav className="border-y-2 py-4">
+      <div ref={sentinelRef} />
+      <nav className={`sticky top-0 z-10 bg-white border-y-2 py-4 transition-shadow duration-200 ${isSticky ? "shadow-sm" : ""}`}>
         <ul className="flex flex-wrap justify-center md:justify-start space-x-4 md:space-x-6">
           <li className="py-1">
             <a href="#about" onClick={(e) => handleSmoothScroll(e, "about")}>
@@ -256,7 +268,14 @@ function App() {
                 pub.selected ? "border-blue-500" : "border-gray-300"
               } pl-4`}
             >
-              <p className="font-semibold text-lg text-gray-900">{pub.title}</p>
+              <div className="flex items-center gap-2 flex-wrap">
+                <p className="font-semibold text-lg text-gray-900">{pub.title}</p>
+                {pub.bestPaperAward && (
+                  <span className="text-xs font-medium px-2 py-0.5 rounded-full bg-blue-50 text-blue-600 border border-blue-300 whitespace-nowrap">
+                    Best Paper Award
+                  </span>
+                )}
+              </div>
               <p className="text-sm text-gray-600">{pub.authors}</p>
               <p className="text-sm italic text-gray-500 mb-1">
                 {pub.venue}, {pub.year}

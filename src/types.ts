@@ -11,4 +11,5 @@ export interface Publication {
   paperLink: string;
   codeLink?: string;
   selected: boolean;
+  bestPaperAward?: boolean;
 }
