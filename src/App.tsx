@@ -36,10 +36,25 @@ function App() {
     }
   };
 
-  const filteredPubs: Publication[] =
-    activeTab === "selected"
-      ? publications.filter((pub) => pub.selected)
-      : publications;
+  const highlightName = (authors: string) => {
+    const name = "Sjoerd Vink";
+    const parts = authors.split(name);
+    return parts.map((part, i) => (
+      <React.Fragment key={i}>
+        {part}
+        {i < parts.length - 1 && (
+          <span className="underline font-semibold">{name}</span>
+        )}
+      </React.Fragment>
+    ));
+  };
+
+  // TODO: re-enable tabs when there are enough papers
+  // const filteredPubs: Publication[] =
+  //   activeTab === "selected"
+  //     ? publications.filter((pub) => pub.selected)
+  //     : publications;
+  const filteredPubs: Publication[] = publications;
 
   return (
     <div className="flex flex-col min-h-screen w-full px-4 md:px-8 lg:w-3/4 xl:w-2/4 mx-auto">
@@ -237,6 +252,7 @@ function App() {
           </a>
         </p>
 
+        {/* TODO: re-enable when there are enough papers
         <div className="flex space-x-4 mb-6 border-gray-200 overflow-x-auto">
           <button
             onClick={() => setActiveTab("selected")}
@@ -259,6 +275,7 @@ function App() {
             All Papers
           </button>
         </div>
+        */}
 
         <ul className="space-y-6">
           {filteredPubs.map((pub, index) => (
@@ -276,7 +293,7 @@ function App() {
                   </span>
                 )}
               </div>
-              <p className="text-sm text-gray-600">{pub.authors}</p>
+              <p className="text-sm text-gray-600">{highlightName(pub.authors)}</p>
               <p className="text-sm italic text-gray-500 mb-1">
                 {pub.venue}, {pub.year}
               </p>

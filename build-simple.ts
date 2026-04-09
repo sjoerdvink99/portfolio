@@ -3,7 +3,7 @@ import { copyFileSync, mkdirSync, existsSync, readdirSync, statSync, writeFileSy
 import { join } from 'path';
 
 // Copy directory recursively
-function copyDir(src, dest) {
+function copyDir(src: string, dest: string): void {
   if (!existsSync(dest)) {
     mkdirSync(dest, { recursive: true });
   }

@@ -13,4 +13,15 @@ export const publications: Publication[] = [
     selected: true,
     bestPaperAward: true,
   },
+  {
+    title:
+      "NodeSubstrates: Bridging Node-Link Diagrams with DR-Based Semantic Substrates ",
+    authors: "Sjoerd Vink, Leonardo Christino, and Michael Behrisch",
+    venue: "EuroVis 2026 (GDxDR Workshop)",
+    year: 2026,
+    paperLink: "#",
+    codeLink: "https://github.com/christinoleo/nodeSubstratesImpl",
+    selected: true,
+    bestPaperAward: false,
+  },
 ];
