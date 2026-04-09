@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => setIsSticky(!entry.isIntersecting),
-      { threshold: 1 }
+      { threshold: 1 },
     );
     if (sentinelRef.current) observer.observe(sentinelRef.current);
     return () => observer.disconnect();
@@ -24,7 +24,7 @@ function App() {
 
   const handleSmoothScroll = (
     e: React.MouseEvent<HTMLAnchorElement>,
-    targetId: string
+    targetId: string,
   ) => {
     e.preventDefault();
     const element = document.getElementById(targetId);
@@ -120,7 +120,9 @@ function App() {
         </div>
       </section>
       <div ref={sentinelRef} />
-      <nav className={`sticky top-0 z-10 bg-white border-y-2 py-4 transition-shadow duration-200 ${isSticky ? "shadow-sm" : ""}`}>
+      <nav
+        className={`sticky top-0 z-10 bg-white border-y-2 py-4 transition-shadow duration-200 ${isSticky ? "shadow-sm" : ""}`}
+      >
         <ul className="flex flex-wrap justify-center md:justify-start space-x-4 md:space-x-6">
           <li className="py-1">
             <a href="#about" onClick={(e) => handleSmoothScroll(e, "about")}>
@@ -219,11 +221,24 @@ function App() {
         </p>
 
         <p className="mt-4">
-          My research focuses on designing user-facing systems that surface the
-          power of data and AI through expressive, accessible interfaces. I
-          build intelligent tools that bridge technical infrastructure, human
-          intent, and system complexity—empowering more people to work
-          meaningfully with data.
+          I study how humans communicate intent to computational systems. Modern
+          interfaces require users to translate structured intent into
+          unstructured inputs such as text, clicks, or gestures. This makes
+          systems difficult to control and leads to unpredictable behavior,
+          especially in AI systems. My work focuses on making intent explicit by
+          designing representations that capture goals, constraints, and
+          transformations in a structured form that systems can interpret and
+          execute.
+        </p>
+        <p className="mt-4">
+          My research combines formal models and system building. I have shown
+          that interaction has both structure and meaning by modeling it as a
+          language and as a set of semantic predicates. Building on this
+          foundation, I develop representations of intent that enable more
+          reliable and controllable interaction across domains such as AI and
+          data analysis. The goal is to move from interfaces that require users
+          to guess how systems behave to systems that can directly understand
+          and act on human intent.
         </p>
       </section>
       <section id="news" className="py-10 border-b-2">
@@ -286,14 +301,18 @@ function App() {
               } pl-4`}
             >
               <div className="flex items-center gap-2 flex-wrap">
-                <p className="font-semibold text-lg text-gray-900">{pub.title}</p>
+                <p className="font-semibold text-lg text-gray-900">
+                  {pub.title}
+                </p>
                 {pub.bestPaperAward && (
                   <span className="text-xs font-medium px-2 py-0.5 rounded-full bg-blue-50 text-blue-600 border border-blue-300 whitespace-nowrap">
                     Best Paper Award
                   </span>
                 )}
               </div>
-              <p className="text-sm text-gray-600">{highlightName(pub.authors)}</p>
+              <p className="text-sm text-gray-600">
+                {highlightName(pub.authors)}
+              </p>
               <p className="text-sm italic text-gray-500 mb-1">
                 {pub.venue}, {pub.year}
               </p>
