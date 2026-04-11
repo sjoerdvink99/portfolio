@@ -15,7 +15,18 @@ export const publications: Publication[] = [
   },
   {
     title:
-      "NodeSubstrates: Bridging Node-Link Diagrams with DR-Based Semantic Substrates ",
+      "Position Paper: The Strategic Opportunity for Visual Analytics in the Age of Generative AI",
+    authors:
+      "Sjoerd Vink, Byungmoo Kim, Camelia Brumar, Manling Yang, Kristi Potter, and Remco Chang",
+    venue: "EuroVis 2026 (EuroVA Workshop)",
+    year: 2026,
+    paperLink: "#",
+    selected: true,
+    bestPaperAward: false,
+  },
+  {
+    title:
+      "NodeSubstrates: Bridging Node-Link Diagrams with DR-Based Semantic Substrates",
     authors: "Sjoerd Vink, Leonardo Christino, and Michael Behrisch",
     venue: "EuroVis 2026 (GDxDR Workshop)",
     year: 2026,
