@@ -1,42 +1,28 @@
 {
-  "name": "my-project",
+  "name": "portfolio-sjoerd",
   "version": "0.1.0",
   "homepage": "https://sjoerdvink99.github.io/portfolio/",
   "private": true,
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "gray-matter": "^4.0.3",
+    "next": "^16.2.4",
+    "next-mdx-remote": "^6.0.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "scripts": {
-    "start": "bun run build && bun dev.ts",
-    "build": "bun build-simple.ts && bun build src/index.tsx --outdir build --target browser --minify",
-    "build:deploy": "bun build-simple.ts --deploy && bun build src/index.tsx --outdir build --target browser --minify",
-    "deploy": "bun run build:deploy && gh-pages -d build",
-    "typecheck": "tsc --noEmit"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.19",
     "@types/node": "^25.5.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "gh-pages": "^6.3.0",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.10",
     "tailwindcss": "^3.4.19",
     "typescript": "^5.9.3"
   }
