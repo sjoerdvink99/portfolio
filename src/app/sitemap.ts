@@ -4,7 +4,7 @@ import { getAllPosts } from "@/lib/blog";
 
 export const dynamic = "force-static";
 
-const BASE_URL = "https://sjoerdvink99.github.io/portfolio";
+const BASE_URL = "https://sjoerdvink99.github.io";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();

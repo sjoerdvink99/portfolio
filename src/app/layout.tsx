@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sjoerd Vink",
     description: "PhD student in Computer Science at Utrecht University.",
-    url: "https://sjoerdvink99.github.io/portfolio/",
+    url: "https://sjoerdvink99.github.io/",
     siteName: "Sjoerd Vink",
     type: "website",
   },
