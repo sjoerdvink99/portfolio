@@ -2,6 +2,10 @@ import { NewsItem } from "@/lib/types";
 
 export const news: NewsItem[] = [
   {
+    date: "June 2026",
+    text: "Attending EuroVis 2026 in Nottingham, UK.",
+  },
+  {
     date: "March 2026",
     text: "Presenting a paper on learnable predicates at GRIVAPP 2026 in Marbella, Spain.",
   },

@@ -73,13 +73,16 @@ export default function Navbar({ showBlog = false }: { showBlog?: boolean }) {
           ) : (
             <>
               <li className="py-1">
-                <Link href="/">Home</Link>
-              </li>
-              <li className="py-1">
                 <Link href="/#about">About</Link>
               </li>
               <li className="py-1">
+                <Link href="/#news">News</Link>
+              </li>
+              <li className="py-1">
                 <Link href="/#publications">Publications</Link>
+              </li>
+              <li className="py-1">
+                <Link href="/#contact">Contact</Link>
               </li>
             </>
           )}
